@@ -1,0 +1,46 @@
+.frame {
+    box-sizing: border-box; 
+    font-family: Arial; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 50px 50px; 
+    margin: 50px auto; 
+    width: 40%; 
+    background: #f8f8f82d; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    } 
+    body { 
+    font-family: Arial; 
+    background: linear-gradient( 
+    90deg, 
+    #706f6f 0%, #115ccd 100%); 
+    } 
+    label{ 
+    font-family: Arial; 
+    color: white; 
+    margin-bottom: -10px; 
+    font-size: 18px; 
+    /*padding: 5px 10px;*/ 
+    } 
+    .btnsubmit{ 
+    padding:10px 15px; 
+    color: white; 
+    background: #0087da; 
+    font-family: Arial; 
+    font-size: 16px; 
+    border: none; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    } 
+    .btnsubmit:hover{ 
+    background: rgb(18, 0, 100); 
+    border: 2px solid white; 
+    transform: scale(1.1); 
+    transition: 0.5s; 
+    } 
+    
+    input{ 
+    padding: 5px 10px; 
+    width: 95%; 
+    height: 20px; 
+    } 
